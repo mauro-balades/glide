@@ -46,7 +46,7 @@ struct TransparentWindowView: View {
                     makeWindowTransparent()
                 }
             }
-        }
+        }.ignoresSafeArea()
     }
 
     private func makeWindowTransparent() {
